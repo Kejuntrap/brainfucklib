@@ -61,7 +61,7 @@ while i <= length(program)
                     global bra -= 1
                 elseif i >= 0 && program[i] == ']'
                     global bra += 1
-                elseif i >= length(program)
+                elseif i < 0
                     println("Out Of Program.")
                     return
                 end
