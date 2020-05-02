@@ -38,11 +38,11 @@ def main():
                 bra = 1
                 while arr[pointer] == 0:
                     i += 1
-                    if i < memorysize and program[i] == '[':
+                    if i < len(program) and program[i] == '[':
                         bra += 1
-                    elif i < memorysize and program[i] == ']':
+                    elif i < len(program) and program[i] == ']':
                         bra -= 1
-                    elif i >= memorysize:
+                    elif i >= len(program):
                         print("EOF Reached.")
                         return
             else:

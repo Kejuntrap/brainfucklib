@@ -46,11 +46,11 @@ public class bfinter {
                     bra = 1;
                     while (bra > 0) {
                         i++;
-                        if (i < memorySize && program.charAt(i) == '[') {
+                        if (i < program.length() && program.charAt(i) == '[') {
                             bra++;
-                        } else if (i < memorySize && program.charAt(i) == ']') {
+                        } else if (i < program.length() && program.charAt(i) == ']') {
                             bra--;
-                        } else if (i >= memorySize) {
+                        } else if (i >= program.length()) {
                             System.out.println("EOF Reached");
                             return;
                         } else {

@@ -36,11 +36,11 @@ fun main(args: Array<String>) {
                 bra = 1
                 while (bra > 0) {
                     i++
-                    if (i < memorySize && program[i] == '[') {
+                    if (i < program.length && program[i] == '[') {
                         bra++
-                    } else if (i < memorySize && program[i] == ']') {
+                    } else if (i < program.length && program[i] == ']') {
                         bra--
-                    } else if (i >= memorySize) {
+                    } else if (i >= program.length) {
                         println("EOF Reached.")
                         return
                     } else {
