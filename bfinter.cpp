@@ -77,7 +77,9 @@ int main() {
             cin >> inp;
             arr[pointer] = inp;
             i++;
-        } else {}
+        } else {
+            i++;
+        }
     }
     return 0;
 }

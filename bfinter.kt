@@ -75,7 +75,7 @@ fun main(args: Array<String>) {
             print(arr[pointer].toChar())
             i++
         } else {
-            //Other characters.
+            i++
         }
     }
 }
