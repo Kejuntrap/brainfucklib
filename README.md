@@ -10,6 +10,8 @@ This is a Brainfuck interperter.
   - DMD64 D Compiler v2.091.1
 - Golang
   - 1.14
+- Groovy
+  - 3.0.3
 - java
   - 12.0.1
 - julia
