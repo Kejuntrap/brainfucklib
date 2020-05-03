@@ -26,3 +26,7 @@ This is a Brainfuck interperter.
   - 2.6.3p62
 - V
   - 0.1.26 50a8373.8df7637
+
+# how to use
+
+stdin
