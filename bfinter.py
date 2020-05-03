@@ -36,7 +36,7 @@ def main():
         elif program[i] == '[':
             if arr[pointer] == 0:
                 bra = 1
-                while arr[pointer] == 0:
+                while bra > 0:
                     i += 1
                     if i < len(program) and program[i] == '[':
                         bra += 1
