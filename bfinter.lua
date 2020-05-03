@@ -35,7 +35,6 @@ while i <= #program do
         pointer = pointer + 1
         i = i + 1;
     elseif program[i] == '.' then
-        --print(arr[pointer])
         io.write(string.char(arr[pointer]))
         i = i + 1;
     elseif program[i] == ',' then
