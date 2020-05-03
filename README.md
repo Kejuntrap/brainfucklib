@@ -18,6 +18,8 @@ This is a Brainfuck interperter.
   - 1.3.72-release-468 (JRE 13.0.2+8)
 - Lua
   - 5.3.5
+- Nim
+  - 1.2.0
 - PHP
   - 7.4.5
 - Python
