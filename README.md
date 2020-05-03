@@ -24,6 +24,8 @@ This is a Brainfuck interperter.
   - 3.8.2
 - Ruby
   - 2.6.3p62
+- Scala
+  - 2.13.2
 - V
   - 0.1.26 50a8373.8df7637
 
