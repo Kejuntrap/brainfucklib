@@ -31,7 +31,7 @@ This is a Brainfuck interperter.
 - Scala
   - 2.13.2
 - V
-  - 0.1.26 50a8373.8df7637
+  - V 0.1.27 e336628
 
 # how to use
 
