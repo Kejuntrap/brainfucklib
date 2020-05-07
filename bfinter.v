@@ -31,7 +31,7 @@ fn main(){
 			pointer += 1
 			i += 1
 		}else if program[i] ==  `,` {
-			inp := os.input('').int()
+			inp := int(os.input('')[0])
 			arr[pointer] = inp
 			i += 1
 		}else if program[i] ==  `.` {
